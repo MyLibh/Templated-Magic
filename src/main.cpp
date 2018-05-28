@@ -1,5 +1,4 @@
 #include <iostream>
-#include <algorithm>
 #include "Simplify.hpp"
 
 using namespace Simplify;
