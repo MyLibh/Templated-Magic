@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Differentiation.hpp" />
+    <ClInclude Include="..\src\Functions.hpp" />
+    <ClInclude Include="..\src\Simplify.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{CB48028E-7291-4E65-B945-BEBD6E608607}</ProjectGuid>
@@ -119,17 +127,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="Differentiation.hpp" />
-    <ClInclude Include="Functions.hpp" />
-    <ClInclude Include="Simplify.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <MASM Include="Source.asm">
-      <FileType>Document</FileType>
-    </MASM>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>

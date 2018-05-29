@@ -2,7 +2,7 @@
 
 #include "Differentiation.hpp"
 
-namespace Simplify
+namespace Simplification
 {
 
 #pragma region Simplification
@@ -299,7 +299,7 @@ namespace Simplify
 			IsFixedPoint,
 			LazyApply<Id>,
 			LazyApply<SimplifyPrime>
-		>::template Result_t<Node<BinaryFunctionWrapper<BF>, LeftPrime_t, RightPrime_t>>;
+		>::template res<Node<BinaryFunctionWrapper<BF>, LeftPrime_t, RightPrime_t>>;
 	};*/
-} 
+} // namespace Simplification
 
