@@ -250,7 +250,7 @@ namespace Simplification
 	Node<WrapPow, std::decay_t<T>, Node<WrapDiv, Node<Number<1>>, Node<Number<2>>>> Sqrt(T);
 
 	template<typename T>
-	Node<WrapMul, std::decay_t<T>, std::decay_t<T>> operator^ (T, Node<Number<2>>);
+	Node<WrapPow, std::decay_t<T>, std::decay_t<T>> operator^ (T, Node<Number<2>>);
 
 #pragma endregion
 
