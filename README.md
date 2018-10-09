@@ -3,8 +3,8 @@ This repository contains various examples of patterned magic (mostly any compile
 
 |Project Name                |
 |----------------------------|
-|[Derivative](src\Derivative)|
-|[Factorial](src\Factorial)  |
-|[Power](src\Power)          |
-|[Log2](src\Logarithm)       |
-|[Fibonacci](src\Fibonacci)  |
+|[Derivative](src/Derivative)|
+|[Factorial](src/Factorial)  |
+|[Power](src/Power)          |
+|[Log2](src/Logarithm)       |
+|[Fibonacci](src/Fibonacci)  |
