@@ -1,5 +1,6 @@
-#include <iostream>
 #include "Simplify.hpp"
+
+#include <iostream>
 
 using namespace Simplification;
 
